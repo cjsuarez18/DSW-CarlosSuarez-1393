@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="contenedor">
+    <header>
+        <h1 class="centrado"> Selectores CSS </h1>
+    </header>
+    <nav>
+        <ul class="menu-horizontal">
+            <li> <a href="index.html"> Inicio</a> </li>
+            <li> <a href="audio.html"> Audio</a> </li>
+            <li> <a href="tema.html"> Tema</a> </li>
+        </ul>
+    </nav>
+    <aside>
+        <ul class="menu-aside">
+            <li> <a href="index.html"> Inicio</a> </li>
+            <li> <a href="audio.html"> Audio del tema</a> </li>
+            <li> <a href="tema.html"> El tema</a> </li>
+            <li> <a href="nosotros.html"> Nosotros</a> </li>
+        </ul>
+    </aside>
+    <main>
+        <section id="Inicio">
+
+            <h2> Selectores CSS </h2>
+            <p>
+                El selector CSS (Cascading Style Sheet) es el nexo de unión entre la hoja de estilos y los documentos a los
+                que se aplique dicha hoja. Ya sean (x)HTML, XLM, SVG... y con independencia del medio en que se muestre
+                (media type).
+                Del conocimiento y buen manejo que se haga del selector CSS dependerá la eficiencia de la hoja de estilos y
+                en muchos casos el poder lograr lo deseado sin necesidad de recurrir a otros lenguajes.
+                Un detalle más que significativo de su importancia del selector en CSS lo da el hecho de que hemos pasado de
+                tener unos 20 selectores en CSS2 a más de 70 en el último documento en discusión.1
+                El selector CSS es el identificador en la hoja de estilos del elemento o elementos del DOM a los que se
+                aplicarán las declaraciones contenidas en la regla de la que forma parte dicho selector.
+                Como curiosidad, en algunas partes, al elemento del DOM al que aplica el selector CSS se le llama sujeto del
+                selector.
+                El término selector CSS puede referirse por igual a cualquiera de los cuatro tipos de selectores CSS que
+                existen clasificados por la composición de su nombre:
+    
+    
+            <p>1. a un selector CSS simple</p>
+            <p>2. a un selector CSS compuesto</p>
+            <p>3. a un selector CSS complejo</p>
+            <p>4. a una lista de selectores CSS</p>
+            </p>
+    
+            <h3>Tipos de selectores CSS por su composición</h3>
+    
+            <p>
+            <h3>Selector CSS simple</h3>
+            </p>
+            Un selector simple es aquel que está formado solo por una única cadena textual, sin ningún combinador. Son
+            selectores simples el selector universal *, el selector por tipo de elemento del DOM div | p | article...,
+            el selector de ID # y de clase ., el de atributo, el de pseudoclase : y el de pseudoelemento :: (notación
+            actual). En la notación antigua o clásica de CSS2 los pseudoelementos también se representan como las
+            pseudoclases :.
+            Los combinadores son signos intercalados entre selectores simples para acotar o hacer más preciso el alcance
+            del selector. Estos combinadores son el espacio en blanco, los signos + | ~ | > entre otros.
+    
+            <p>
+            <h3>Selector CSS compuesto</h3>
+            </p>
+            El <quote>Selector compuesto</quote> es una cadena de selectores simples sin combinadores (el espacio en
+            blanco también queda excluido porque es un combinador):
+            section.noticias {}
+            .una_clase.otra_clase {}
+    
+            <p>
+            <h3>Selector CSS complejo</h3>
+            </p>
+            El «Selector complejo» es una secuencia o cadena de selectores separados por «combinadores».
+            p span {}
+            nav > a {}
+            main:hover > h1 ~ p {}
+    
+            <p>
+            <h3>Lista de selectores CSS</h3>
+            </p>
+            Una «lista de selectores» la conforman dos o más selectores de cualquier tipo separados por una coma ,
+            #unico,
+            main:hover > h1,
+            ol > li:only-child {}
+    
+            <img src="img/css-selectors.png" alt="Selectores CSS">
+    
+        </section>
+        <hr>
+        <section id="Mockup"> 
+            <h3>Mockup de la pagina</h3>
+            <img src="img/mockup.png" alt="">
+        </section>
+        <hr>
+        <a name="Acercade"></a>
+        <section>
+            <h3> Acerca de</h3>
+            <h1>Bienvenido a mi pagina web</h1>
+            <h2>Proyecto de sitio Web 2023-8-03</h2>
+            <hr>
+            <h3>Nombre: Carlos Suarez</h3>
+            <h3>Programa: Ingenieria de Sistemas</h3>
+            <h3>Fecha de creacion: 02/07/2023</h3>
+            <hr>
+            <p>Mis datos de contacto son: <br>
+                skipe: cjsuarez18 <br>
+                telefono: 3122606019 <br>
+                email: cjsuarezp@unadvirtual.edu.co <br>
+    
+        </section>
+    </main>
+    <footer class="centrado">
+        <br>
+        <p> Esta pagina fue desarrollada por Carlos Suarez</p>
+        <p>Fecha de actualizacion: 13/07/2023</p>
+        <br>
+    </footer>
+</body>
+</html>
