@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="resultado"> Responde a las siguientes preguntas</h1>
+    <!-- <h1 class="resultado"> Responde a las siguientes preguntas </h1> -->
+    <div>
+        <form name="formulario">
+            <h3>1. ¿Cuál es la forma más eficiente de aplicar estilos CSS en un documento HTML?</h3>
+            
+            <input type="radio" name="r1" value="a"> a. En linea <br>
+            <input type="radio" name="r1" value="b"> b. Incrustado en la cabecera <br>
+            <input type="radio" name="r1" value="c"> c. Hoja de estilo externos <br>
+
+            <h3>2. ¿Cuáles de las siguientes declaraciones son propiedades o atributos? </h3>
+
+            <input type="radio" name="r2" value="a"> a. h1 <br>
+            <input type="radio" name="r2" value="b"> b. background-color <br>
+            <input type="radio" name="r2" value="c"> c. italic <br>
+
+            <h3>3. ¿Cuáles de las siguientes declaraciones son selectores? </h3>
+            
+            <input type="radio" name="r3" value="a"> a. p <br>
+            <input type="radio" name="r3" value="b"> b. font-family <br>
+            <input type="radio" name="r3" value="c"> c. 50px <br>
+
+            <h3>4. ¿Cómo se define un color de fondo para todas las etiquetas "p" en CSS? </h3>
+            
+            <input type="radio" name="r4" value="a"> a. p.all {background-color:red;}<br>
+            <input type="radio" name="r4" value="b"> b. p {background-color:red;} <br>
+            <input type="radio" name="r4" value="c"> c. #p {background-color:red;} <br>
+
+            <h3>5. ¿Con qué propiedad se define el espacio entre el borde de un elemento y los elementos que lo rodean? </h3>
+            
+            <input type="radio" name="r5" value="a"> a. border<br>
+            <input type="radio" name="r5" value="b"> b. margin <br>
+            <input type="radio" name="r5" value="c"> c. padding <br>
+            
+            <input type="button" value="Enviar" onclick="procesarRespuestas()">
+          </form>
+    </div>
+   <script src="js/script.js"></script>
+</body>
+</html>
